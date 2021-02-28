@@ -110,6 +110,7 @@ _ios-$(1)_CONFIGURE_FLAGS = \
 	--disable-mcs-build \
 	--disable-nls \
 	--disable-visibility-hidden \
+	--enable-dtrace=no \
 	--enable-maintainer-mode \
 	--enable-minimal=com,remoting,shared_perfcounters,gac,logging \
 	--enable-monotouch \
