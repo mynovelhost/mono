@@ -111,7 +111,7 @@ _ios-$(1)_CONFIGURE_FLAGS = \
 	--disable-nls \
 	--disable-visibility-hidden \
 	--enable-maintainer-mode \
-	--enable-minimal=com,remoting,shared_perfcounters,gac \
+	--enable-minimal=com,remoting,shared_perfcounters,gac,logging \
 	--enable-monotouch \
 	--with-tls=pthread \
 	--without-ikvm-native \
