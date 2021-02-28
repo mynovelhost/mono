@@ -112,7 +112,7 @@ _ios-$(1)_CONFIGURE_FLAGS = \
 	--disable-visibility-hidden \
 	--enable-dtrace=no \
 	--enable-maintainer-mode \
-	--enable-minimal=com,remoting,shared_perfcounters,gac,logging \
+	--enable-minimal=ssa,aot,attach,com,full_messages,portability,remoting,shared_perfcounters,gac,logging \
 	--enable-monotouch \
 	--with-tls=pthread \
 	--without-ikvm-native \
